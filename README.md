@@ -3,7 +3,7 @@
 
 docker login
 
-docker image build -t cent2 .
+docker image build -t custome1 .
 
 docker tag custome1 munnaeeebd/custome1
 
@@ -14,5 +14,5 @@ docker push munnaeeebd/custome1
 # something.yaml
 spec:
       containers:
-      - name: munnaeeebd-cent
-        image: munnaeeebd/cent2
+      - name: munnaeeebd-custome1
+        image: munnaeeebd/custome1
